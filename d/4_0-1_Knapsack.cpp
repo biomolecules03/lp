@@ -4,6 +4,8 @@ using namespace std;
 // Function to solve 0-1 Knapsack problem using Dynamic Programming
 int knapSack(int W, vector<int>& weights, vector<int>& values, int n) {
     // Create a 2D DP array where dp[i][w] will store the maximum value
+
+    
     // for the first i items and a maximum weight capacity of w
     vector<vector<int>> dp(n + 1, vector<int>(W + 1, 0));
 
